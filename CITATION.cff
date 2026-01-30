@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "OrderGuard"
+version: "0.1.0"
+date-released: "2026-01-30"
+license: "MIT"
+authors:
+  - family-names: "YourName"
+    given-names: "YourGivenName"
+repository-code: "REPLACE_WITH_REPO_URL"
+preferred-citation:
+  type: software
+  title: "OrderGuard: Order-Robust LLM Judging via Permutation Consensus"
+  authors:
+    - family-names: "YourName"
+      given-names: "YourGivenName"
+  year: 2026
+  version: "0.1.0"
+  url: "REPLACE_WITH_REPO_URL"

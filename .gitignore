@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+legacy/
+
+# Local run outputs
+reports/*
+!reports/paper_qwen3/
+!reports/paper_qwen3/**
+
+# Keep only the final paper-ready figures
+assets/figures/legacy/

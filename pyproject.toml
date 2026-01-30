@@ -1,0 +1,26 @@
+[project]
+name = "orderguard"
+version = "0.1.0"
+description = "Order-robust LLM judging & decision-making via permutation consensus."
+requires-python = ">=3.12"
+dependencies = [
+  "datasets>=4.5.0,<5.0.0",
+  "numpy>=1.26.0",
+  "pandas>=2.2.0",
+  "matplotlib>=3.8.0",
+  "tqdm>=4.66.6",
+  "transformers>=4.51.0",
+  "accelerate>=1.2.1",
+]
+
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[project.optional-dependencies]
+dev = [
+  "ruff>=0.6.0",
+]
